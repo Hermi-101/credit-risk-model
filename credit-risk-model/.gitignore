@@ -1,0 +1,21 @@
+# Python Virtual Environments
+.venv/
+venv/
+__pycache__/
+
+# Dataset files (large binary files)
+data/
+
+# Model artifacts directory (if you only want to commit selected files)
+# For this project, we are committing the PKL file, so this is optional,
+# but can be useful if you had other large test files in here.
+# For now, let's keep it commented or skip it, as we want to commit the .pkl.
+# model_artifacts/ 
+
+# Jupyter Notebook Files
+# Checkpoint directories
+.ipynb_checkpoints
+
+# IDE files
+.vscode/
+*.swp
